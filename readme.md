@@ -1,125 +1,84 @@
-![elva logo](https://scott.ee/images/elva.png)
+# Freelance Aberystwyth Website
 
-# elva
+![Freelance Aberystwyth Logo](https://freelanceaber.com/assets/img/logo.png)
 
-* Status: ✅ Active
-* Contributors: [@scott](https://toot.scott.ee/@scott)
-* Description: A multilingual, clean, green 11ty starter theme.
-* Author: [Scott Evans](https://scott.ee)
-* Author URI: [https://scott.ee](https://scott.ee)
+Welcome to the GitHub repository for the Freelance Aberystwyth website
 
-## About
+## Table of Contents
 
-A multilingual, clean, green, [11ty starter theme](https://www.11ty.dev/docs/starter/). elva provides solid foundations for your next web project and a built in CMS ([Front Matter CMS](https://frontmatter.codes/)) for managing content. [Try the demo!](https://elva.scott.ee/)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Features include:
+## Overview
 
-### Performance things
+[Freelance Aberystwyth](https://freelanceaber.com) is a platform that connects freelancers and clients in Aberystwyth and the surrounding areas. This GitHub repository contains the source code for the main website, which is built using the static site generator [Eleventy](https://www.11ty.dev/).
 
-* Optimised CSS, JS and HTML
-* Responsive image shortcode that supports lazy loading and modern formats (avif, webp)
-* Support for the [Photon CDN](https://developer.wordpress.com/docs/photon/) (can be turned on via settings)
+## Installation
 
-### Accessibility things
+1. Clone the repository:
 
-* [Multilingual](https://www.11ty.dev/docs/plugins/i18n/)
-* Dark / light mode
-* Skip link and ARIA hints
+   ```bash
+   git clone https://github.com/julienbrunuk/freelanceaberdotcom.git
+   ```
 
-### Standards things
+2. Navigate to the project directory:
 
-* [RSS feed](https://www.11ty.dev/docs/plugins/rss/) with XSLT styles
-* JSON feeds
-* Sitemap
-* Web manifest for PWAs
-* humans.txt 
-* robots.txt
-* Discourage Google AI from indexing your content
+   ```bash
+   cd freelanceaberdotcom
+   ```
 
-### Other things
+3. Install dependencies:
 
-* [Front Matter CMS](https://frontmatter.codes/)
-* Open graph image generation from within Front Matter CMS (dev server must be running)
-* Draft support
-* [Syntax highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/)
-* [Simplified embeds for YouTube, Vimeo etc](https://github.com/gfscott/eleventy-plugin-embed-everything)
-* Plenty of helpful filters and functions
-* [Alpine.js](https://alpinejs.dev/)
-* [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/)
+   ```bash
+   npm install
+   ```
 
-### Still to come:
+## Usage
 
-- [ ] [Critical CSS](https://github.com/11ty/eleventy-plugin-bundle) or per collection or per page CSS ([1](https://www.silvestar.codes/articles/extracting-and-using-critical-css-on-my-eleventy-site/))
-- [ ] [Explore activity feed](https://github.com/11ty/eleventy-activity-feed)
-- [ ] Fix: Make the random filter choose the same article for both languages
-- [ ] Accessible tooltip component
-- [x] Reading time filter
-- [ ] Markdown-It — [Support multilingual quote styles](https://github.com/markdown-it/markdown-it#init-with-presets-and-options)
-- [ ] Images — Size presets (full width, half etc that set the sizes attribute automatically)
-- [ ] [Support markdown style images](https://nhoizey.github.io/eleventy-plugin-images-responsiver/)
-- [ ] Profile verification / .well-known support for the Fediverse and Nostr
-- [x] Serve assets and styles for YouTube lite locally
-- [ ] [Language redirect based on browser setting](https://gitlab.com/florent_tassy/polyglot-tech-blog/-/blob/main/src/js/redirect.js)?
-- [ ] Cleaner language selector
-- [x] Allow for variable subsitution in translations e.g. `Hello, {{name}}` (still needs to handle plurals!)
-- [ ] Front Matter CMS — Fix previews when customising the post/page slug ([1](https://frontmatter.codes/docs/content-creation/placeholders#example-1), [2](https://frontmatter.codes/docs/custom-actions#content-script))
-- [ ] Front Matter CMS — More data managed from the CMS
-- [x] Front Matter CMS — Better support for templates, default templates etc
-- [x] Front Matter CMS — [Generated open graph images](https://www.eliostruyf.com/generate-open-graph-preview-image-code-front-matter/) ([1](https://bnijenhuis.nl/notes/automatically-generate-open-graph-images-in-eleventy/))
-- [ ] [twtxt feeds](https://indieweb.org/twtxt) ([1](https://twtxt.readthedocs.io))
+### Development Server
 
-## Getting Started
+Run the following command to start a local development server:
 
-Make a directory and navigate to it:
-
-```
-mkdir my-site-name
-cd my-site-name
+```bash
+npm run serve
 ```
 
-Clone this repository:
+This will build the site, watch for changes, and serve it locally. Open your browser and go to `http://localhost:8080` to view the website.
 
-```
-git clone https://github.com/scottsweb/elva.git .
-```
+### Build for Production
 
-Install dependencies:
+To build the website for production, use the following command:
 
-```
-npm install
-```
-
-Run Eleventy for site development. View the site at `http://localhost:8080`:
-
-```
-npm run dev
-```
-
-Generate a production-ready build to the `dist` folder:
-
-```
+```bash
 npm run build
 ```
 
-To use [Front Matter CMS](https://frontmatter.codes/), install [VSCodium](https://vscodium.com/) or [Visual Studio Code](https://code.visualstudio.com/) and enable the extension (if it doesn't enable automatically). It will open each time you launch your project.
+This will generate the optimized files in the `_site` directory.
 
-## Personalisation Checklist
+## Folder Structure
 
-- [ ] At the top of `.eleventy.js` you'll see some dynamic settings for `url`, `isProduction` and `isStaging`. Make sure these environment variables are set in staging and production and tweak as necessary
-- [ ] Configure your sites settings in `/src/_data/settings.json` or in Front Matter CMS (under Data)
-- [ ] Add your chosen languages ([the demo site will soon guide you through this](https://elva.scott.ee/en/writing/adding-additional-languages/))
-- [ ] Configure your sites navigation in `/src/_data/navigation.js`
-- [ ] Set your own default images, icons and favicon by replacing the images in `/src/assets/img/` 
-- [ ] Add your content — it's easiest to do this with Front Matter CMS which exposes [all front matter](https://elva.scott.ee/en/writing/frontmatter/) in the UI
-- [ ] Setup a custom template for your open graph images (`.frontmatter/scripts/opengraph-template.html`)
-- [ ] Design your site by customising the CSS (`/src/assets/css/`), layouts (`/src/_layouts/`) and includes (`/src/_includes/`)
+- **.eleventy.js**: Configuration file for Eleventy.
+- **src/**: Contains the source code for the website.
+  - **_data/**: Data files for Eleventy.
+  - **_includes/**: Reusable components and layouts.
+  - **_layouts/**: HTML layouts for different pages.
+  - **_pages/**: Markdown or HTML files for individual pages.
+  - **_sass/**: Sass files for styling.
+  - **assets/**: Static assets like images, styles, and scripts.
+- **.gitignore**: Specifies files that should be ignored by Git.
+- **package.json**: Node.js project configuration file.
+- **README.md**: This file.
 
-### Optional
+## Contributing
 
-- [ ] Set your preferred image sizes and formats in the image shortcode `/src/_config/shortcodes/image.js`
-- [ ] If you add more front matter, you may wish to edit `frontmatter.json` to add [Front Matter CMS](https://frontmatter.codes/) support
-- [ ] You many not need [Alpine.js](https://alpinejs.dev/) which can be removed from `/src/assets/js/bundle.njk`
-- [ ] Use [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/) to grab some API data
-- [ ] If you enable Photon CDN support [familiarise yourself with these limitations](https://jetpack.com/support/site-accelerator/#limitations)
- 
+We welcome contributions! If you find any issues or have suggestions for improvement, please open an issue or create a pull request. Please read our [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Happy coding! 🚀

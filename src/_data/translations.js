@@ -1,7 +1,7 @@
 module.exports = {
     en: {
         meta: {
-            title: 'elva',
+            title: 'Freelance Aberystwyth',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
             description: 'A multilingual, clean, green, 11ty starter theme',
@@ -23,9 +23,9 @@ module.exports = {
         dark: 'Dark',
         light: 'Light'
     },
-    sv: {
+    cy: {
         meta: {
-            title: 'elva',
+            title: 'Aberystwyth Llawrydd',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
             description: 'A multilingual clean green 11ty starter theme',
