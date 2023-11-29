@@ -2,7 +2,7 @@
 
 ![Freelance Aberystwyth Logo](https://freelanceaber.com/assets/img/opengraph-default.jpg)
 
-Welcome to the GitHub repository for the Freelance Aberystwyth website
+Welcome to the GitHub repository for the Freelance Aberystwyth [https://freelanceaber.com/](website)
 
 ## Table of Contents
 
@@ -15,20 +15,20 @@ Welcome to the GitHub repository for the Freelance Aberystwyth website
 
 ## Overview
 
-[Freelance Aberystwyth](https://freelanceaber.com) is a platform that connects freelancers and clients in Aberystwyth and the surrounding areas. This GitHub repository contains the source code for the main website, which is built using the static site generator [Eleventy](https://www.11ty.dev/).
+[Freelance Aberystwyth](https://freelanceaber.com) is a network of freelancers and clients in Aberystwyth and the surrounding areas. This GitHub repository contains the source code for the main website, which is built using the static site generator [Eleventy](https://www.11ty.dev/).
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/julienbrunuk/freelanceaberdotcom.git
+   git clone https://github.com/freelanceaber/website.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd freelanceaberdotcom
+   cd website
    ```
 
 3. Install dependencies:
