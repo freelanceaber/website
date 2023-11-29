@@ -13,6 +13,10 @@ module.exports = {
 		{
 			text: 'Cyfeiriadur',
 			url: '/Cyfeiriadur'
+		},
+		{
+			text: 'Ymuno',
+			url: 'https://forms.gle/gwCqGFkx1af3Dv2y7'
 		}
     ]
 };

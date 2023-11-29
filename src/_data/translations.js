@@ -16,6 +16,9 @@ module.exports = {
             minute: '1 minute to read',
             other: '{{ minutes }} minutes to read'
         },
+        footer: {
+            email: "email"
+        },
         feeds: {
             info: 'This is an RSS feed. Copy and paste the URL into your feed reader. Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more about RSS.',
             title: 'Recently published'
@@ -34,6 +37,9 @@ module.exports = {
         header: {
             skipLink: 'Hoppa till innehållet',
             home: 'Hem'
+        },
+        footer: {
+            email: "ebost"
         },
         readingTime: {
             underMinute: 'Mindre än 1 minut att läsa',

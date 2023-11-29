@@ -14,9 +14,9 @@
 					{{ properties.shorthand }}
 				</a>
 			{% else %}
-				<span aria-label="{{ properties.shorthand }}: {{ properties.label }}" class="disabled">
+				<a href="/cy/" lang="{{ found.lang }}" hreflang="/cy/"  aria-label="{{ properties.shorthand }}: {{ properties.label }}">
 					{{ properties.shorthand }}
-				</span>
+				</a>
 			{% endif %}
 		{% endif %}
 	{% endfor %}
