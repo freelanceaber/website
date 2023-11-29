@@ -9,7 +9,7 @@ module.exports = {
             "answer": "Freelance Aberystwyth is committed to keeping our community accessible. Currently, membership is free, allowing freelancers of all levels to participate in our events and connect with fellow professionals."
         },
         {
-            "question": "What types of events does Freelance Aberystwyth Llawrydd organize?",
+            "question": "What kind of events does Freelance Aberystwyth Llawrydd organize?",
             "answer": "We host a variety of events, including networking mixers, skill-sharing sessions, workshops, and panel discussions. Our goal is to provide opportunities for freelancers to learn, grow, and build meaningful connections within the local community."
         },
         {
