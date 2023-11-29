@@ -625,3 +625,13 @@ a[aria-current="page"] {
     font-size: var(--step--1);
     display: block;
 }
+
+.front-viz {
+    width: 98vw;
+}
+
+@media (min-width: 600px) {
+    .front-viz {
+        width: 45vw;
+    }
+}
