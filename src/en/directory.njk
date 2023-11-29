@@ -1,0 +1,26 @@
+---
+layout: base
+tags: home
+seo:
+  title: Directory
+  description: Freelance Aberystwyth Llawrydd is a network of self-employed professionals based in and around the town.
+---
+
+<div class="site-intro">
+  <h3>Find a local Freelancer</h3>
+  <p>Hire self-employed people in and around Aberystwyth and support your local economy.</p>
+  <div class="freelancer-directory-wrapper">
+    {% for freelancer in directory.freelancers %}
+      <div class="freelancer-directory-card">
+        <h2>{{ freelancer.name }}</h2>
+        <p>{{ freelancer.gig }} ({{ freelancer.business }})</p>
+        <p>
+          <a class="split-button" target="_blank" href="{{ freelancer.link }}">Website</a>
+          <a class="split-button" href="mailto:{{ freelancer.email }}">email</a>
+        </p>
+        <p>{{ freelancer.bio }}</p>
+      </div>
+      <br/>
+    {% endfor %}
+  </div>
+</div>
