@@ -139,7 +139,7 @@ module.exports = {
         {
             "name": "Gabriella Bosticco",
             "gig": "Copywriter",
-            "business": "MetalTalk",
+            "business": "",
             "bio": "I have experience working with e-commerce businesses and other professionals in a range of industries. This includes content like blog posts, social media management, Google Business content and metadata, along with archive updating. ",
             "link": "https://gjbosticco.wordpress.com/",
             "email": "gj.bosticco@yahoo.com"
