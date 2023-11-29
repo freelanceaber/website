@@ -61,3 +61,7 @@
 .switch-wrapper .switch {
 	display: none;
 }
+
+.switch-wrapper {
+	display: none;
+}

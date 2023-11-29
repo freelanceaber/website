@@ -5,10 +5,10 @@ module.exports = {
         shorthand: 'EN',
         locale: 'en-gb'
     },
-    sv: {
+    cy: {
         dir: 'ltr',
-        label: 'Svenska',
-        shorthand: 'SE',
-        locale: 'sv-se'
+        label: 'Cymraeg',
+        shorthand: 'CY',
+        locale: 'cy-gb'
     }
 }

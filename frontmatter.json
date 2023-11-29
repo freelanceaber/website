@@ -226,18 +226,18 @@
       }
     },
     {
-      "name": "SV",
+      "name": "CY",
       "configuration": {
         "frontMatter.content.pageFolders": [
           {
             "title": "Posts",
-            "path": "[[workspace]]/src/sv/posts",
-            "previewPath": "sv/skriv"
+            "path": "[[workspace]]/src/cy/posts",
+            "previewPath": " y/skriv"
           },
           {
             "title": "Pages",
-            "path": "[[workspace]]/src/sv/pages",
-            "previewPath": "sv"
+            "path": "[[workspace]]/src/cy/pages",
+            "previewPath": "cy"
           }
         ],
         "frontMatter.content.publicFolder": "[[workspace]]/src"

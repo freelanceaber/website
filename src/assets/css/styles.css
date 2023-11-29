@@ -460,6 +460,7 @@ a[aria-current="page"] {
 
 .rss-icon {
     width: 44px;
+    display: none;
 }
 
 /* feed xslt */
