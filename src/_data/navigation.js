@@ -3,6 +3,10 @@ module.exports = {
 		{
 			text: 'Directory',
 			url: '/Directory/'
+		},
+		{
+			text: 'Join Us',
+			url: 'https://forms.gle/gwCqGFkx1af3Dv2y7'
 		}
     ],
     cy: [
