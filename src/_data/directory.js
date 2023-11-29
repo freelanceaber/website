@@ -51,7 +51,7 @@ module.exports = {
         {
             "name": "Kerry Ferguson",
             "gig": "Digital marketing & social media trainer",
-            "business": "Cambrian Web",
+            "business": "Gwe Cambrian Web",
             "bio": "I help small businesses like you feel confident with their digital marketing.",
             "link": "https://kerryferguson.co.uk/",
             "email": "kerry@kerryferguson.co.uk"
@@ -83,7 +83,7 @@ module.exports = {
         {
             "name": "Emlyn Jones",
             "gig": "Website developer",
-            "business": "Cambian Web",
+            "business": "Gwe Cambrian Web",
             "bio": "Bilingual Web design and GIS industry. Skilled in ArcGIS, Environmental Issues, Web Design, and Management. Strong entrepreneurship professional",
             "link": "https://cambrianweb.com/",
             "email": "info@cambrianweb.com"
