@@ -1,3 +1,140 @@
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-Light.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-BoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-SemiBoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-ExtraLight.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-LightItalic.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-Italic.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-MediumItalic.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BlocW08';
+    src: url('/assets/fonts/BlocW08-Regular.woff2') format('woff2'),
+        url('/assets/fonts/BlocW08-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BlocW08';
+    src: url('/assets/fonts/BlocW08-Regular.woff2') format('woff2'),
+        url('/assets/fonts/BlocW08-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-ExtraLightItalic.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bloc';
+    src: url('/assets/fonts/Bloc.woff2') format('woff2'),
+        url('/assets/fonts/Bloc.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Niramit';
+    src: url('/assets/fonts/Niramit-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Niramit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 @media (prefers-reduced-motion) {
 	* {
 		transition: none !important;

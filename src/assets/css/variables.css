@@ -46,8 +46,8 @@
     --code-function: var(--nord8);
 
     /* typography */
-    --font-base: Georgia, Times, 'Times New Roman', serif;
-    --font-headings: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-base: 'Niramit';
+    --font-headings: 'BlocW08';
     --font-quote: var();
     --font-mono: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1500,22,1.333,6,1,800&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -62,7 +62,7 @@
 
     /* spacing / layout */
     --tracking: -0.02ch;
-    --tracking-s: -0.055ch;
+    --tracking-s: 0.12vh;
     --gutter: var(--space-s-m);
     --border-radius: var(--step-0);
     /* @link https://utopia.fyi/space/calculator?c=320,18,1.2,1500,22,1.333,6,1,800&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l|m-3xl|s-2xl&g=s,l,xl,12 */
