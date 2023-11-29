@@ -43,7 +43,7 @@ module.exports = {
             "answer": "Rydym yn cynnal amrywiaeth o ddigwyddiadau, gan gynnwys cymysgwyr rhwydweithio, sesiynau rhannu sgiliau, gweithdai, a thrafodaethau panel. Ein nod yw darparu cyfleoedd i weithwyr llawrydd ddysgu, tyfu a meithrin cysylltiadau ystyrlon o fewn y gymuned leol."
         },
         {
-            "question " : " Sut gallaf gael y wybodaeth ddiweddaraf am ddigwyddiadau sydd i ddod?",
+            "question" : "Sut gallaf gael y wybodaeth ddiweddaraf am ddigwyddiadau sydd i ddod?",
             "answer" : "Arhoswch yn y ddolen drwy wirio ein gwefan yn rheolaidd am gyhoeddiadau digwyddiadau. Yn ogystal, gallwch ymuno â'n rhestr bostio, grŵp facebook a whatsapp."
         },
         {
