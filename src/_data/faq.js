@@ -28,5 +28,35 @@ module.exports = {
             "question": "How can Freelance Aberystwyth benefit my freelance career?",
             "answer": "By joining Freelance Aberystwyth, you'll have the opportunity to expand your professional network, gain insights into different industries, and stay updated on the latest trends and best practices. Our events are designed to provide valuable resources and support to help you thrive in your freelance journey."
         }
+    ],
+    "welshQuestions": [
+        {
+            "question": "Pwy all ymuno â Llawrydd Aberystwyth Llawrydd?",
+            "answer": "Mae croeso i weithwyr llawrydd, contractwyr annibynnol a gweithwyr o bell ymuno â'n cymuned. P'un a ydych yn llawrydd profiadol neu'n dechrau arni, mae ein grŵp yn agored i unigolion o wahanol ddiwydiannau a chefndiroedd."
+        },
+        {
+            "question" : " A oes unrhyw ffioedd aelodaeth?",
+            "answer": "Mae Llawrydd Aberystwyth wedi ymrwymo i gadw ein cymuned yn hygyrch. Ar hyn o bryd, mae aelodaeth am ddim, gan ganiatáu i weithwyr llawrydd o bob lefel gymryd rhan yn ein digwyddiadau a chysylltu â chydweithwyr proffesiynol."
+        },
+        {
+            "question": "Pa fath o ddigwyddiadau mae Llawrydd Aberystwyth yn eu trefnu?",
+            "answer": "Rydym yn cynnal amrywiaeth o ddigwyddiadau, gan gynnwys cymysgwyr rhwydweithio, sesiynau rhannu sgiliau, gweithdai, a thrafodaethau panel. Ein nod yw darparu cyfleoedd i weithwyr llawrydd ddysgu, tyfu a meithrin cysylltiadau ystyrlon o fewn y gymuned leol."
+        },
+        {
+            "question " : " Sut gallaf gael y wybodaeth ddiweddaraf am ddigwyddiadau sydd i ddod?",
+            "answer" : "Arhoswch yn y ddolen drwy wirio ein gwefan yn rheolaidd am gyhoeddiadau digwyddiadau. Yn ogystal, gallwch ymuno â'n rhestr bostio, grŵp facebook a whatsapp."
+        },
+        {
+            "question": "A allaf gynnig syniad am ddigwyddiad neu weithdy?",
+            "answer": "Yn hollol! Rydym yn annog ein haelodau i gyfrannu at y gymuned drwy awgrymu syniadau am ddigwyddiadau neu wirfoddoli i arwain gweithdai. Cysylltwch â'n cydlynydd rhwydwaith neu soniwch amdano yn ystod un o'n cyfarfodydd."
+        },
+        {
+            "question": "A yw Aberystwyth Llawrydd ar gyfer gweithwyr proffesiynol mewn diwydiannau penodol yn unig?",
+            "answer": "Dim o gwbl! Mae ein cymuned yn amrywiol, yn croesawu gweithwyr llawrydd o amrywiol ddiwydiannau megis dylunio, adeiladu, ysgrifennu, stondinwyr, rhaglennu, marchnata, a mwy. Mae cryfder ein cymuned yn gorwedd yn yr amrywiaeth o sgiliau a phrofiadau sydd gennym ni. aelodau yn dod at y bwrdd."
+        },
+        {
+            "question": "Sut gall Aberystwyth Llawrydd fod o fudd i fy ngyrfa llawrydd?",
+            "answer": "Drwy ymuno â Llawrydd Aberystwyth, cewch gyfle i ehangu eich rhwydwaith proffesiynol, cael mewnwelediad i wahanol ddiwydiannau, a chael y wybodaeth ddiweddaraf am y tueddiadau a'r arferion gorau diweddaraf. Mae ein digwyddiadau wedi'u cynllunio i ddarparu adnoddau a chymorth gwerthfawr i eich helpu i ffynnu ar eich taith llawrydd."
+        }
     ]
 };
