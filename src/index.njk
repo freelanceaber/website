@@ -7,6 +7,22 @@ seo:
 ---
 
 <div class="site-intro">
-    <img class="front-viz" src="/assets/img/opengraph-default.jpg">
-    <p>Freelance Aberystwyth Llawrydd is a network of self-employed professionals based in and around the town.</p>
+  <img class="front-viz" src="/assets/img/opengraph-default.jpg">
+    <p>Freelance Aberystwyth Llawrydd is a network of self-employed professionals based in and around the town.  <br/>
+  <br /></p>
+  </div>
+
+<section class="accordion">
+  <div class="tab">
+    {% for question in faq.questions %}
+      <div class="tab">
+        <input type="checkbox" name="accordion-{{loop.index}}" id="cb{{loop.index}}">
+          <h3><label for="cb{{loop.index}}" class="tab__label">{{ question.question }}</label></h3>
+          <div class="tab__content">
+            <p>{{question.answer}}</p>
+          </div>
+        </div>
+        <br/>
+      {% endfor %}
+    </div>
 </div>
