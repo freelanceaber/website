@@ -658,7 +658,7 @@ a[aria-current="page"] {
   /* Styles for desktop screens (up to 3 columns) */
   @media only screen and (min-width: 768px) {
     .freelancer-directory-card {
-      width: 50%;
+      width: 100%;
       float: left;
       box-sizing: border-box;
       padding: 10px;
@@ -753,5 +753,9 @@ a[aria-current="page"] {
     75% {
       transform: rotate(90deg) translate(-.25rem);
     }
+  }
+
+  .text-left {
+    text-align: left;
   }
   

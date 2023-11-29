@@ -2,7 +2,7 @@ module.exports = {
     en: [
 		{
 			text: 'Directory',
-			url: '/Directory/'
+			url: '/en/Directory/'
 		},
 		{
 			text: 'Join Us',
