@@ -7,7 +7,7 @@ seo:
 
 Freelance Aberystwyth Llawrydd is a network of self-employed professionals based in and around the town. 
 
-{% image "/assets/img/screenshots.png", "Screenshot of elva in VSCodium and the browser", "100vw", "elva uses Front Matter CMS for easy content management", "rounded", "lazy", "auto", "async", "2400", "1688" %}
+{% image "/assets/img/screenshots.png", "Screenshot of freelanceaber in VSCodium and the browser", "100vw", "freelanceaber uses Front Matter CMS for easy content management", "rounded", "lazy", "auto", "async", "2400", "1688" %}
 
 Features include:
 

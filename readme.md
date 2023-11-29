@@ -1,6 +1,6 @@
 # Freelance Aberystwyth Website
 
-![Freelance Aberystwyth Logo](https://freelanceaber.com/assets/img/logo.png)
+![Freelance Aberystwyth Logo](https://freelanceaber.com/assets/img/opengraph-default.jpg)
 
 Welcome to the GitHub repository for the Freelance Aberystwyth website
 

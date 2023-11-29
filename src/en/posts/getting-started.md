@@ -10,10 +10,10 @@ mkdir my-site-name
 cd my-site-name
 ```
 
-Clone the elva repository:
+Clone the freelanceaber repository:
 
 ``` bash
-git clone https://github.com/scottsweb/elva.git .
+git clone https://github.com/scottsweb/freelanceaber.git .
 ```
 
 Install dependencies:

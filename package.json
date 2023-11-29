@@ -13,7 +13,7 @@
     "release-major": "npm version major --force && npm publish"
   },
   "bugs": {
-    "url": "https://github.com/scottsweb/elva/issues"
+    "url": "https://github.com/scottsweb/freelanceaber/issues"
   },
   "keywords": [
     "eleventy",
