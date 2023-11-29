@@ -13,7 +13,7 @@ seo:
     {% for freelancer in directory.freelancers %}
       <div class="freelancer-directory-card">
         <h2>{{ freelancer.name }}</h2>
-        <p>{{ freelancer.gig }} ({{ freelancer.business }})</p>
+        <p>{{ freelancer.gig }} {% if freelancer.business %} ({{ freelancer.business }}) {% endif %}</p>
         <p>
           <a class="split-button" target="_blank" href="{{ freelancer.link }}">Website</a>
           <a class="split-button" href="mailto:{{ freelancer.email }}">email</a>
