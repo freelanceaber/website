@@ -3,25 +3,28 @@ layout: base
 tags: home
 seo:
   title: Freelance Aberystwyth Llawrydd
-  description: Freelance Aberystwyth Llawrydd is a network of self-employed professionals based in and around the town.
+  description: Mae Aberystwyth Llawrydd yn rwydwaith o weithwyr proffesiynol hunan-gyflogedig o fewn ac o gwmpas tref Aberystwyth. Dewch i ymuno â’n cymuned, cwrdd â phobl, a tyfu eich busnes.
 ---
 
 <div class="site-intro">
-    <img class="front-viz" src="/assets/img/opengraph-default.jpg">
-    <p>Mae Aberystwyth Llawrydd yn rwydwaith o weithwyr proffesiynol hunan-gyflogedig o fewn ac o gwmpas tref Aberystwyth. Dewch i ymuno â’n cymuned, cwrdd â phobl, a tyfu eich busnes. <br /><br /></p>
-</div>
-
-<section class="accordion">
-  <div class="tab">
-    {% for question in faq.welshQuestions %}
-      <div class="tab">
-        <input type="checkbox" name="accordion-{{loop.index}}" id="cb{{loop.index}}">
-          <h3><label for="cb{{loop.index}}" class="tab__label">{{ question.question }}</label></h3>
-          <div class="tab__content">
-            <p>{{question.answer}}</p>
+  <img class="front-viz" src="/assets/img/opengraph-default.jpg">
+    <p>Mae Aberystwyth Llawrydd yn rwydwaith o weithwyr proffesiynol hunan-gyflogedig o fewn ac o gwmpas tref Aberystwyth.
+      Dewch i ymuno â’n cymuned, cwrdd â phobl, a tyfu eich busnes.
+      <br/><br/></p>
+  </div>
+  <section class="accordion">
+    <div class="tab">
+      {% for question in faq.welshQuestions %}
+        <div class="tab">
+          <input type="checkbox" name="accordion-{{ loop.index }}" id="cb{{ loop.index }}">
+            <h3>
+              <label for="cb{{ loop.index }}" class="tab__label">{{ question.question }}</label>
+            </h3>
+            <div class="tab__content">
+              <p>{{ question.answer }}</p>
+            </div>
           </div>
-        </div>
-        <br/>
-      {% endfor %}
+          <br/>
+        {% endfor %}
+      </div>
     </div>
-</div>
