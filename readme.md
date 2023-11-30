@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8818988c-9fc4-46dd-be25-4b95317ec20e/deploy-status)](https://app.netlify.com/sites/dynamic-frangipane-ce723f/deploys)
+
 # Freelance Aberystwyth Website
 
 ![Freelance Aberystwyth Logo](https://freelanceaber.com/assets/img/opengraph-default.jpg)
