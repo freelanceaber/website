@@ -4,7 +4,7 @@
 
 ![Freelance Aberystwyth Logo](https://freelanceaber.com/assets/img/opengraph-default.jpg)
 
-Welcome to the GitHub repository for the Freelance Aberystwyth [https://freelanceaber.com/](website)
+Welcome to the GitHub repository for [Freelance Aberystwyth Llawrydd](https://freelanceaber.com)
 
 ## Table of Contents
 
