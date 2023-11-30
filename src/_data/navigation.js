@@ -12,7 +12,7 @@ module.exports = {
     cy: [
 		{
 			text: 'Cyfeiriadur',
-			url: '/en/Directory/'
+			url: '/cy/Cyfeiriadur/'
 		},
 		{
 			text: 'Ymuno',

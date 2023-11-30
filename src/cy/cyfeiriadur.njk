@@ -1,0 +1,26 @@
+---
+layout: base
+tags: home
+seo:
+  title: Cyfeiriadur
+  description: Freelance Aberystwyth Llawrydd is a network of self-employed professionals based in and around the town.
+---
+
+<div class="site-intro">
+  <h3>Dod o hyd i bobl llawrydd lleol</h3>
+  <p>Cyflogi pobl hunan-gyflogedig yn Abersytwyth a’r cyffuniau, er mwyn cefnogi eich economi leol.</p>
+  <div class="freelancer-directory-wrapper">
+    {% for freelancer in directory.freelancers %}
+      <div class="freelancer-directory-card">
+        <h2>{{ freelancer.name }}</h2>
+        <p>{{ freelancer.gig }} {% if freelancer.business %} ({{ freelancer.business }}) {% endif %}</p>
+        <p>
+          <a class="split-button" target="_blank" href="{{ freelancer.link }}">Gwefan</a>
+          <a class="split-button" href="mailto:{{ freelancer.email }}">Ebost</a>
+        </p>
+        <p>{{ freelancer.bio }}</p>
+      </div>
+      <br/>
+    {% endfor %}
+  </div>
+</div>
