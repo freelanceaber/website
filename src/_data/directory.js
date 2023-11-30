@@ -168,6 +168,14 @@ module.exports = {
             "link": "https://www.eye4aneye.co.uk/",
             "email": "design@eye4aneye.co.uk"
         },
+        {
+            "name": "Alison Pierse",
+            "gig": "Artist",
+            "business": "Aberdabbadoo",
+            "bio": "Aberdabbadoo is the collective name for a business that runs heritage walks around Aberystwyth, makes mosaics for kitchens, gardens and bathrooms and teaches the art of mosaic.",
+            "link": "https://aberdabbadoo.com/",
+            "email": "alisonpierse@gmail.com"
+        }
         // {
         //     "name": "",
         //     "gig": "",
