@@ -175,6 +175,14 @@ module.exports = {
             "bio": "Aberdabbadoo is the collective name for a business that runs heritage walks around Aberystwyth, makes mosaics for kitchens, gardens and bathrooms and teaches the art of mosaic.",
             "link": "https://aberdabbadoo.com/",
             "email": "alisonpierse@gmail.com"
+        },
+        {
+            "name": "Lucy McQuillan",
+            "gig": "Guide",
+            "business": "Forest Bathing Practice Guide",
+            "bio": "Forest Bathing Practice Guide - A form of mindfulness, but in nature. Sessions organised for one person up to ten. Huge range of health and wellbeing benefits for participants.",
+            "link": "https://www.forestbathingandmindfulness.com",
+            "email": "lucyforestbathing@gmail.com"
         }
         // {
         //     "name": "",
