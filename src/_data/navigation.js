@@ -6,7 +6,7 @@ module.exports = {
 		},
 		{
 			text: 'Join Us',
-			url: 'https://forms.gle/gwCqGFkx1af3Dv2y7'
+			url: 'mailto:hello@freelanceaber.com'
 		},
 		{
 			text: 'Contact',
@@ -20,7 +20,7 @@ module.exports = {
 		},
 		{
 			text: 'Ymuno',
-			url: 'https://forms.gle/gwCqGFkx1af3Dv2y7'
+			url: 'mailto:hello@freelanceaber.com'
 		},
 		{
 			text: 'Cysylltu',
